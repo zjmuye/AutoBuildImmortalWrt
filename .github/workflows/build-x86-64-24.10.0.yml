@@ -1,4 +1,4 @@
-name: build-x86-64-immortalwrt-24.10.2
+name: build-x86-64-immortalwrt-24.10.0
 
 on:
   workflow_dispatch:
@@ -6,12 +6,12 @@ on:
       profile:
         description: '请输入要编译固件大小 单位(MB)'
         required: true
-        default: '1024'
+        default: '2048'
       include_docker:
         description: |
           是否编译 Docker 插件
         required: true
-        default: 'yes'
+        default: 'no'
         type: choice
         options:
           - 'yes'
@@ -73,7 +73,7 @@ jobs:
               -e ENABLE_PPPOE=${{ inputs.enable_pppoe }} \
               -e PPPOE_ACCOUNT=${{ inputs.pppoe_account }} \
               -e PPPOE_PASSWORD=${{ inputs.pppoe_password }} \
-              immortalwrt/imagebuilder:x86-64-openwrt-24.10.2 /bin/bash /home/build/immortalwrt/build.sh
+              immortalwrt/imagebuilder:x86-64-openwrt-24.10.0 /bin/bash /home/build/immortalwrt/build.sh
           done
 
       - name: Generate Firmware SHA-256
