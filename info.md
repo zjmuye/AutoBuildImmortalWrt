@@ -25,7 +25,7 @@
 - luci-i18n-samba4-zh-cn
 - luci-i18n-dufs-zh-cn
 - openssh-sftp-server
-###第三方软件仓库
+- ###第三方软件仓库
 - luci-app-store
 - luci-app-adguardhome
 - luci-app-tailscale
