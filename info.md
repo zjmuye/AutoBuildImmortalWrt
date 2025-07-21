@@ -8,8 +8,8 @@
 #### 修改版：4Lan
 #### 编译预装：
  curl
- luci-i18n-diskman-zh-cn
- luci-i18n-firewall-zh-cn
+##luci-i18n-diskman-zh-cn
+##luci-i18n-firewall-zh-cn
 luci-theme-argon
 luci-i18n-ttyd-zh-cn
 #luci-i18n-base-zh-cn
