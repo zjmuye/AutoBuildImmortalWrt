@@ -7,28 +7,28 @@
 #### 默认软件包大小 2GB
 #### 修改版：4Lan
 #### 编译预装：
- curl
-##luci-i18n-diskman-zh-cn
-##luci-i18n-firewall-zh-cn
-luci-theme-argon
-luci-i18n-ttyd-zh-cn
-#luci-i18n-base-zh-cn
-luci-i18n-package-manager-zh-cn
-luci-i18n-attendedsysupgrade-zh-cn
-luci-app-openclash
-luci-i18n-passwall-zh-cn
-luci-i18n-smartdns-zh-cn
-luci-i18n-openlist-zh-cn
-luci-i18n-zerotier-zh-cn
-luci-i18n-appfilter-zh-cn
-luci-i18n-ddns-go-zh-cn
-luci-i18n-samba4-zh-cn
-luci-i18n-dufs-zh-cn
-openssh-sftp-server
-第三方软件仓库
-luci-app-store
-luci-app-adguardhome
-luci-app-tailscale
-luci-i18n-tailscale-zh-cn
-luci-app-mosdns
-luci-i18n-mosdns-zh-cn
+- curl
+- luci-i18n-diskman-zh-cn
+- luci-i18n-firewall-zh-cn
+- luci-theme-argon
+- luci-i18n-ttyd-zh-cn
+- #luci-i18n-base-zh-cn
+- luci-i18n-package-manager-zh-cn
+- luci-i18n-attendedsysupgrade-zh-cn
+- luci-app-openclash
+- luci-i18n-passwall-zh-cn
+- luci-i18n-smartdns-zh-cn
+- luci-i18n-openlist-zh-cn
+- luci-i18n-zerotier-zh-cn
+- luci-i18n-appfilter-zh-cn
+- luci-i18n-ddns-go-zh-cn
+- luci-i18n-samba4-zh-cn
+- luci-i18n-dufs-zh-cn
+- openssh-sftp-server
+###第三方软件仓库
+- luci-app-store
+- luci-app-adguardhome
+- luci-app-tailscale
+- luci-i18n-tailscale-zh-cn
+- luci-app-mosdns
+- luci-i18n-mosdns-zh-cn
